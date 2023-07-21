@@ -1,0 +1,19 @@
+{
+  "name": "co2-code-measurer",
+  "version": "1.0.0",
+  "main": "js/index.js",
+  "repository": "git@github.com:KoTurk/co2-code-measurer.git",
+  "author": "Turk <ko.turk@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tgwf/co2": "^0.13.4",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules/ package-lock.json",
+    "start": "node src/app.js"
+  },
+  "devDependencies": {
+    "@tgwf/co2": "^0.13.4"
+  }
+}

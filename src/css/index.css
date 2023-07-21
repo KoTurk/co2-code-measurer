@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #16a864;
+}
+.container-fluid
+{
+    width: 1000px;
+    margin: 60px auto;
+    padding: 10px;
+}
+.display
+{
+    text-align: center;
+    width: 1000px;
+    color: #16a864;
+}
+.wrapper
+{
+    background-color: white;
+    height: 30vh;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+.wrapper p
+{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #04214c;
+    font-size:23px;
+}
+.wrapper p span
+{
+    color: #f4780d;
+    font-size: 25px;
+}
